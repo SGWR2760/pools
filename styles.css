@@ -56,6 +56,14 @@ body .demo-blog {
   position: relative;
   -webkit-overflow-scrolling: touch;
 }
+
+/* フォーム用 contact.html */
+.demo-blog.mdl-layout .contact_form{
+  padding-top: 30px;
+  position: relative;
+  -webkit-overflow-scrolling: touch;
+}
+
 .demo-blog .mdl-card {
   display: -webkit-flex;
   display: -ms-flexbox;
