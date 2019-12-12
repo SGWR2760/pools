@@ -97,15 +97,15 @@ body .demo-blog {
   color: inherit;
 }
 .demo-blog .mdl-card__supporting-text {
-  width: 100%;
+  width: 95%;
   padding: 16px;
   min-height: 64px;
-  display: -webkit-flex;
+  /* display: -webkit-flex; */
   display: -ms-flexbox;
-  display: flex;
+  /* display: flex;
   -webkit-align-items: center;
       -ms-flex-align: center;
-          align-items: center;
+          align-items: center; */
 }
 .demo-blog .mdl-card__supporting-text strong {
   font-weight: 400;
