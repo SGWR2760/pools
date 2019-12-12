@@ -56,6 +56,14 @@ body .demo-blog {
   position: relative;
   -webkit-overflow-scrolling: touch;
 }
+
+/* フォーム用 contact.html */
+.demo-blog.mdl-layout .contact_form{
+  padding-top: 30px;
+  position: relative;
+  -webkit-overflow-scrolling: touch;
+}
+
 .demo-blog .mdl-card {
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -97,15 +105,15 @@ body .demo-blog {
   color: inherit;
 }
 .demo-blog .mdl-card__supporting-text {
-  width: 100%;
+  width: 95%;
   padding: 16px;
   min-height: 64px;
-  display: -webkit-flex;
+  /* display: -webkit-flex; */
   display: -ms-flexbox;
-  display: flex;
+  /* display: flex;
   -webkit-align-items: center;
       -ms-flex-align: center;
-          align-items: center;
+          align-items: center; */
 }
 .demo-blog .mdl-card__supporting-text strong {
   font-weight: 400;
@@ -170,7 +178,7 @@ body .demo-blog {
       -ms-flex-direction: column;
           flex-direction: column;
 }
-.demo-blog.is-small-screen .demo-blog__posts > .mdl-card.coffee-pic {
+.demo-blog.is-small-screen .demo-blog__posts > .mdl-card.recently-events {
   -webkit-order: 0;
       -ms-flex-order: 0;
           order: 0;
@@ -180,8 +188,8 @@ body .demo-blog {
       -ms-flex-order: -1;
           order: -1;
 }
-.demo-blog .coffee-pic .mdl-card__media {
-  background-image: url('images/coffee.jpg');
+.demo-blog .recently-events .mdl-card__media {
+  background-image: url('images/recently-events.jpg');
 }
 .demo-blog .something-else .mdl-card__media {
   display: -webkit-flex;
