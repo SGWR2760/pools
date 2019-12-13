@@ -62,7 +62,7 @@ body .pools-site {
 }
 
 /* フォーム用 contact.html */
-.pools-site.mdl-layout .contact_form {
+.pools-site.mdl-layout .lower_form {
   padding-top: 30px;
   position: relative;
   -webkit-overflow-scrolling: touch;
@@ -91,6 +91,7 @@ body .pools-site {
 .pools-site .mdl-card__media {
   box-sizing: border-box;
   background-size: cover;
+  background-color: #b0b0b0;
   padding: 24px;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -113,9 +114,10 @@ body .pools-site {
 }
 
 .pools-site .mdl-card__supporting-text {
-  width: 95%;
+  width: 100%;
   padding: 16px;
   min-height: 64px;
+  box-sizing: border-box;
   /* display: -webkit-flex; */
   display: -ms-flexbox;
   /* display: flex;
