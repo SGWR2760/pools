@@ -108,6 +108,11 @@ body .pools-site {
   cursor: pointer;
 }
 
+/* 詳細ページの画像を大きく見せる場合 */
+.details{
+  padding-top: 30%;
+}
+
 .pools-site .mdl-card__media a,
 .pools-site .mdl-card__title a {
   color: inherit;
